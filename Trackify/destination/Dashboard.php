@@ -35,7 +35,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
             <a href="#">Invoice</a>
         </div>
         <div class="content">
-            
+             <div style="width: 400px; height: 400px; border: 2px black solid; display: flex; align-items: center; justify-content: center;">
+            <?php  Echo "Welcome to Our Website ".$_SESSION['username']?>
+        </div>
         </div>
     </div>
 </body>

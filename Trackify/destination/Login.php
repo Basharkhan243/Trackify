@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['email'] = $email;
         $_SESSION['username'] = $row['username'];
 
-        header("location:  /Trackify/destination/Dashboard.php");
+        header("location:  Dashboard.php");
         exit();
       }else {
         $showError = "Invalid Credentials";

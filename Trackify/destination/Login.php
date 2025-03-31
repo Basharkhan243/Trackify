@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if ($result) {
                 $showAlert = true;
+                header("location login.php");
             }
         } else {
             $showError = "Passwords do not match";

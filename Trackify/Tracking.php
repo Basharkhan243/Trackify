@@ -23,7 +23,7 @@ if ($result && mysqli_num_rows($result) > 0) {
 } else {
     unset($_SESSION['selected_client_id']);
     $_SESSION['return_to'] = 'Tracking.php';
-    header("Location: clients.php");
+    header("Location: ./Client.php");
     exit;
 }
 
